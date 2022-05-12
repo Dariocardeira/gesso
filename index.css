@@ -1,0 +1,162 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 100%;
+ height: 100%;
+
+ 
+}
+ 
+.bg{
+  width: 100%;
+  margin-top: 3px;
+}
+
+.logo, a{
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+.logo{
+  position: fixed;
+    right: 0;
+   
+    width: 100%;
+    
+    text-align: center;
+    background-color: #9e9e9e;
+    align-items: center;
+}
+.fasaseuOrsamento {
+  text-align: center;
+  color:rgb(241, 237, 237);
+}
+.orçamento{
+  background-color: #9e9e9e;;
+  color: #050505;
+  font-size: 20px;
+  border-radius: 8px;
+  margin: 14px;
+  clear: both
+}
+.serviçoss{
+  width: 100%;
+  text-align: center;
+    margin: 10px;
+
+}
+.serviçosc{
+  margin-left: 50px;
+  margin-bottom: 8px;
+}
+.parede3d{
+ float: left;
+ width: 96%;
+ margin-left: 0px;
+ margin-bottom: 20px;
+
+}
+.bloco{
+  width: 457px;
+  height: 219px;
+  margin-left: 0px;
+
+}
+.p1{
+  margin-left: 27px;
+
+}
+.linha{
+  height: 2px;
+  display: block;
+  border-width: 0;
+  color: rgb(238, 29, 29);
+  background-color: rgb(235, 10, 10);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+
+}
+.whatsapp-link{
+  position:fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 40px;
+  
+}
+.historia{
+  font-size: 29px;
+  text-align: center;
+  color: steelblue;
+  margin-top: 56px
+
+
+}
+.historia2{
+  font-size: 20px;
+  text-align: center;
+  color: rgb(100, 142, 175);
+  margin-top: 55px;
+  margin-bottom: 34px;
+}
+.foter{
+clear: both;
+ text-align: center;
+ background-color: #9e9e9e;;
+ height: 47px;
+}
+.direitos{
+  padding-top: 9px;
+}
+
+@media only screen and (min-width: 769px){
+  .parede3d {
+    float: left;
+    width: 29%;
+    margin-left: 0%;
+    margin-right: 4%;
+    margin-bottom: 20px;
+    
+
+  }
+  .container{
+    width: 100%;
+   
+    
+  
+  } 
+
+}
+
+@media (min-width: 500px) and (max-width: 770px){
+.bloco{
+ width: 100%;
+}
+.container{
+  width: 100%;
+  
+
+} 
+
+}
+@media (min-width: 770px) and (max-width: 1400px){
+  .bloco{
+    width: 107%;
+    height: 219px;
+    margin-left: 11px;
+  }
+  .container{
+    width: 100%;
+    
+  
+  } 
+}
+@media only screen and (max-width: 500px){
+  .container{
+    width: 473px;
+    
+  
+  } 
+}
